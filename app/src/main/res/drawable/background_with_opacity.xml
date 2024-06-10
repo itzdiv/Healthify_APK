@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/walli1"
+            android:gravity="center" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#66000000" /> <!-- Set the opacity level by adjusting the alpha value -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "752090415729",
+    "project_id": "healthkit-1",
+    "storage_bucket": "healthkit-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752090415729:android:c62b5e679979f6b80e51d0",
+        "android_client_info": {
+          "package_name": "com.example.healthkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752090415729-ue2svdmh48mbrct85ndufvh71aetrmom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnh7kzeAAg-ceGH75O9fx1DwY4la9e2jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752090415729-ue2svdmh48mbrct85ndufvh71aetrmom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

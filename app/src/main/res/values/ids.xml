@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="loginEditText" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="imageView2" type="id" />
+</resources>

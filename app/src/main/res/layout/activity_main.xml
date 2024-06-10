@@ -1,0 +1,88 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/loginEditText"
+        android:layout_width="329dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#000000"
+        android:hint="Enter your email..."
+        android:textColor="#64DD17"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="329dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#000000"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColor="#64DD17"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginEditText" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="161dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Login"
+        app:layout_constraintEnd_toStartOf="@+id/registerButton"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="161dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/loginButton"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="102dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="232dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="368dp"
+        android:layout_height="368dp"
+        android:alpha=".3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@drawable/lojo"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

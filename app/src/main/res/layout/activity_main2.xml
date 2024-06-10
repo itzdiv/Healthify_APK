@@ -1,0 +1,100 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_with_opacity"
+    android:padding="16dp"
+    >
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="341dp"
+        android:layout_height="89dp"
+        android:backgroundTint="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Enter your username"
+        android:inputType="text"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="341dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Enter your email address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usernameEditText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="341dp"
+        android:layout_height="89dp"
+        android:backgroundTint="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailEditText"
+        app:layout_constraintVertical_bias="0.096" />
+
+
+    <Button
+        android:id="@+id/bakButton"
+        android:layout_width="272dp"
+        android:layout_height="66dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registerButton"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="272dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="80dp"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="68dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/registerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="NotSibling"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

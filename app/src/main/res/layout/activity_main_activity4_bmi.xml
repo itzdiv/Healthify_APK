@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity4_bmi">
+
+    <TextView
+        android:id="@+id/text_systolic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight(kg)"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edit_systolic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_systolic"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/text_diastolic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_systolic"
+        android:layout_marginTop="16dp"
+        android:text="Height(cm)"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edit_diastolic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_diastolic"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_diastolic"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Calculate BMI" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculate_button"
+        android:layout_marginTop="16dp"
+        android:text="BMI:"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_result"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="148dp"
+        android:text="Back" />
+
+</RelativeLayout>
