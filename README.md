@@ -3,7 +3,7 @@
 <img src="https://github.com/itzdiv/Healthify_APK/blob/main/Rednder_Images/Healthify_Main%20ss.png" alt="Healthify App Screenshot" style="width: 50%; height: auto;">
 
 ## Overview:
-Healthify is an innovative health and wellness app designed as a part of **HackRx 4.0**, the prestigious annual hackathon hosted by the Bajaj Finserv Group. This app aims to provide users with a holistic health management solution, integrating multiple essential health features into one seamless interface.
+Healthify is an innovative health and wellness app designed as a part of **HackRx 4.0**, the prestigious annual hackathon hosted by the Bajaj Finserv Group. This app aims to provide users with a holistic health management solution, integrating multiple essential health features into one seamless interface. Folder Render_Images contains the visual layout of the application.
 
 ## Features:
 - **BMI Calculator:** Easily calculate your Body Mass Index (BMI) to understand your body composition and monitor your health.
